@@ -19,9 +19,8 @@ def mean_index_diff(df1, df2, sort_column):
     sorted_df_2 = df2.sort_values(by=sort_column)
 
     sorted_list1 = sorted_df_1.index.tolist()
-    print(sorted_list1)
     sorted_list2 = sorted_df_2.index.tolist()
-    print(sorted_list2)
+
 
     sum = 0
 
