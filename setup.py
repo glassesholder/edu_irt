@@ -5,7 +5,7 @@ setup(
     version="0.0.1",
     packages=find_packages(),
     description="created an IRT model for estimating item parameters",
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type="text/markdown",
     author="Hyojun LEE",
     author_email="statisticlee@gmail.com",
