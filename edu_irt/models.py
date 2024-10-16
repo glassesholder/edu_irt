@@ -52,7 +52,8 @@ def estimate_item_parameters_1PL(response_matrix, thetas, initial_params_list):
     return np.array(estimated_params)  # 각 문항의 b(문항난이도) 반환
 
 # EM 알고리즘
-def em_1PL(response_matrix, max_iter=300, tol=1e-5):
+def em_1PL(df, max_iter=300, tol=1e-5):
+    response_matrix = df.values
     n_items = response_matrix.shape[1]
     n_persons = response_matrix.shape[0]
 
@@ -147,7 +148,8 @@ def estimate_item_parameters_2PL(response_matrix, thetas, initial_params_list):
     return np.array(estimated_params)  # 각 문항의 a, b반환
 
 # EM 알고리즘
-def em_2PL(response_matrix, max_iter=300, tol=1e-5):
+def em_2PL(df, max_iter=300, tol=1e-5):
+    response_matrix = df.values
     n_items = response_matrix.shape[1]
     n_persons = response_matrix.shape[0]
 
@@ -246,7 +248,8 @@ def estimate_item_parameters_3PL(response_matrix, thetas, initial_params_list):
     return np.array(estimated_params)  # 각 문항의 a, b, c 반환
 
 # EM 알고리즘
-def em_3PL(response_matrix, max_iter=300, tol=1e-5):
+def em_3PL(df, max_iter=300, tol=1e-5):
+    response_matrix = df.values
     n_items = response_matrix.shape[1]
     n_persons = response_matrix.shape[0]
 

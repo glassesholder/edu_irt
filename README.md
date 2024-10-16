@@ -59,9 +59,9 @@ from edu_irt import models
 ## 1PL 기반 문항모수 추정(1PL estimation)
 df_1PL_1, df_1PL_2 = models.em_1PL(df1)
 ## 2PL 기반 문항모수 추정(2PL estimation)
-df_2PL_1, df_2PL_2 = models.em_2PL(df1)
+df_2PL_1, df_2PL_2 = models.em_2PL(df4)
 ## 3PL 기반 문항모수 추정(3PL estimation)
-df_3PL_1, df_3PL_2 = models.em_3PL(df1)
+df_3PL_1, df_3PL_2 = models.em_3PL(df7)
 
 ## result
 # df_1PL_1, df_2PL_1, df_3PL_1은 문항모수(item parameters), df_1PL_2, df_2PL_2, df_3PL_3는 학생 능력 수준(student ability levels)
