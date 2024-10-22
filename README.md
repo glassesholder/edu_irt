@@ -6,6 +6,7 @@ created an IRT model for estimating item parameters
 안녕하세요!😁<br>
 가상의 학습자 정오답 데이터를 생성하고 IRT 모델을 만들어 보았습니다.<br>
 저희 패키지는 크게 4가지 기능을 제공합니다.
+
 <br>
 1 데이터 생성<br>
 가상의 학습자 정오답 데이터를 생성할 수 있습니다.<br>
