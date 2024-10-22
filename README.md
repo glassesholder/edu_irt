@@ -7,18 +7,18 @@ created an IRT model for estimating item parameters
 가상의 학습자 정오답 데이터를 생성하고 IRT 모델을 만들어 보았습니다.<br>
 저희 패키지는 크게 4가지 기능을 제공합니다.
 
-<br>1. 데이터 생성<br>
+1 데이터 생성<br>
 가상의 학습자 정오답 데이터를 생성할 수 있습니다.<br>
 원하는 학생 수, 문제 수를 바탕으로 학생의 능력 수준과 문항별 문항모수를 임의로 생성해서 학생의 문제별 정오답 데이터를 제공하고 있습니다.<br>
 <br>
-2. 문항모수 추정<br>
+2 문항모수 추정<br>
 가상의 학습자 정오답 데이터 또는 가지고 계신 정오답 데이터(행: 학생, 열 : 문제)를 바탕으로 문항별 문항모수를 추정할 수 있습니다.<br>
 1PL(문항난이도), 2PL(문항변별도, 문항난이도), 3PL(문항변별도, 문항난이도, 문항추측도) 모형을 바탕으로 추정할 수 있습니다.<br>
 <br>
-3. 검사특성곡선, 검사정보곡선 시각화<br>
+3 검사특성곡선, 검사정보곡선 시각화<br>
 확인하고자 하는 문항별 문항모수를 바탕으로 검사특성곡선, 검사정보곡선을 확인할 수 있습니다.<br>
 <br>
-4. 모델 별 정확도 측정<br>
+4 모델 별 정확도 측정<br>
 다른 IRT 모델을 가지고 있다면 가상 데이터를 바탕으로 모델에 대한 정확도를 측정해볼 수 있습니다. 가상데이터를 바탕으로 추출한 문항모수와 비교하여 문항별 문항난이도 순서를 비교합니다.<br>
 <br>
 위 패키지는 버전 0.0.1입니다. 점차 발전시켜 나가는 중에 있으며 많은 조언 부탁드립니다.<br>
@@ -28,16 +28,16 @@ Hello!😁
 <br>
 I’ve created an IRT model using simulated student response data. Our package offers three main features.<br>
 <br>
-1. Data Generation<br>
+1 Data Generation<br>
 You can generate simulated student response data. Based on your desired number of students and questions, the package randomly creates student ability levels and item parameters. It provides corresponding correct/incorrect responses for each question.<br>
 <br>
-2. Parameter Estimation<br>
+2 Parameter Estimation<br>
 You can estimate item parameters based on the simulated student response data or your own data (where rows represent students and columns represent questions). The package supports parameter estimation using the 1PL (item difficulty), 2PL (item discrimination, item difficulty), and 3PL (item discrimination, item difficulty, item guessing) models.<br>
 <br>
-3. Visualization of the Test Characteristic Curve(TCC) and Test Information Curve(TIC)<br>
+3 Visualization of the Test Characteristic Curve(TCC) and Test Information Curve(TIC)<br>
 You can check the test characteristic curve(TCC) and test information curve(TIC) based on the item parameters for each item you want to examine.<br>
 <br>
-4. Model Accuracy Measurement<br>
+4 Model Accuracy Measurement<br>
 If you have other IRT models, you can measure their accuracy using our simulated data. By comparing the estimated item parameters with the simulated data, you can check the ordering of item difficulties.<br>
 
 
